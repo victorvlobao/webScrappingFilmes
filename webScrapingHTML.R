@@ -43,4 +43,4 @@ html_content <- paste(
 )
 
 # Escrevendo o conteúdo HTML em um arquivo
-writeLines(html_content, "./Estudos/R/filmes_imdb.html")
+writeLines(html_content, "filmes_imdb.html")

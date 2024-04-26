@@ -42,7 +42,7 @@ filmes_df <- data.frame(
 filmes_df <- filmes_df[complete.cases(filmes_df), ]
 
 # Salvando os dados em um arquivo CSV
-write.csv(filmes_df, "./Estudos/R/filmes_imdb.csv", row.names = FALSE)
+write.csv(filmes_df, "filmes_imdb.csv", row.names = FALSE)
 
 # Encontrando o filme com maior quantidade de estrelas
 maior_estrelas <- filmes_df[which.max(filmes_df$estrelas), "titulo"]
